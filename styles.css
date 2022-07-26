@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero,
@@ -19,14 +20,16 @@ header{
 }
 header .img{
     height: 60px;
+    flex: 1 1 auto;
 }
 
 nav a {
     text-decoration: none;
-    font-family: "Railway";
+    font-family: Arial, Helvetica, sans-serif;
     color: #927549;
     padding: 10px;
     font-size: 18px;
+    flex: 1 1 auto;
 }
 
 nav a:hover{
@@ -34,5 +37,31 @@ nav a:hover{
 }
 
 .hero{
-    height: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 300px;
+    border-right: solid #927549;
+}
+
+.herotextsecline{
+    margin-top: 10px;
+}
+
+.heroimg {
+    padding-left: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.contactbutton{
+    margin-top: 10px;
+    width: 60px;
 }
