@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero,
+header {
+    display: flex;
+    background-color: #F7F9Ef;
+}
+
+header{
+    height: 40px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .img{
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Railway";
+    color: #927549;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    height: 400px;
+}
